@@ -20,7 +20,7 @@ variable "region" {
 
 provider "aws" {
   # Configuration options
-  profile = "default" 
+  #  profile = "default" 
   region = var.region
 }
 
